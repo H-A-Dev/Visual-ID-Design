@@ -11,3 +11,16 @@ st.write("أهلاً بكِ! هنا سنعرض أكواد الهوية التي 
 color = st.color_picker("جربي درجة لون الخزامى", "#967BB6")
 st.write(f"الدرجة الحالية هي: {color}")
 
+# حقن التنسيقات (CSS)
+st.markdown("""
+    <style>
+    /* هنا نضع أكواد كلود للتنسيق */
+    .main {
+        background-color: #F5E6D3; /* لون الرمل */
+    }
+    h1 {
+        color: #967BB6; /* لون الخزامى */
+        font-family: 'Tajawal', sans-serif;
+    }
+    </style>
+    """, unsafe_allow_html=True)
