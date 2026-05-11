@@ -1,1 +1,40 @@
 
+:root {
+  /* Primary — Saudi Lavender ramp */
+  --rh-lavender-50:  #F7F4FC;   /* page background */
+  --rh-lavender-100: #EDE7F8;   /* surface tint, hover states */
+  --rh-lavender-200: #D6C8EE;   /* dividers, soft fills */
+  --rh-lavender-300: #B0A0DC;   /* secondary accents */
+  --rh-lavender-500: #7C5FCC;   /* mid — illustrations, charts */
+  --rh-lavender-600: #6B4FB8;   /* PRIMARY brand color */
+  --rh-lavender-700: #5A3FA0;   /* hover/active states */
+  --rh-lavender-800: #3D2A6B;   /* heading text on light bg */
+  --rh-lavender-900: #2D1E5C;   /* dark-mode primary surface */
+
+  /* Saudi-warm supporting */
+  --rh-cream:        #F8F3EA;   /* warm neutral surface */
+  --rh-sand:         #E8DCC4;   /* warm divider */
+  --rh-bronze:       #B07A3D;   /* date-palm accent — CTAs, highlights */
+  --rh-sage:         #7A9485;   /* subtle nature accent — oasis green */
+
+  /* Neutrals + UI */
+  --rh-ink:          #1B1530;   /* body text */
+  --rh-slate:        #4A4458;   /* secondary text */
+  --rh-mist:         #DCD5E8;   /* borders */
+  --rh-white:        #FFFFFF;
+
+  /* Semantic */
+  --rh-success:      #3B8B6B;
+  --rh-warning:      #C99544;
+  --rh-error:        #C04B5A;
+}
+:root {
+  --rh-font-ar:      'Tajawal', system-ui, sans-serif;        /* Arabic body + UI */
+  --rh-font-en:      'DM Sans', system-ui, sans-serif;        /* Latin body + UI */
+  --rh-font-display: 'Fraunces', 'Tajawal', serif;            /* editorial headlines */
+}
+
+/* Usage */
+html[lang="ar"] body { font-family: var(--rh-font-ar); }
+html[lang="en"] body { font-family: var(--rh-font-en); }
+h1, .display { font-family: var(--rh-font-display); font-weight: 500; letter-spacing: -0.02em; }
