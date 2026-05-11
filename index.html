@@ -3,3 +3,41 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Royal Horizon">
+  <title>Royal Horizon</title>
+  <path d="M8 44 Q32 35 56 44" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="32" cy="34" r="8" fill="currentColor"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" aria-label="Royal Horizon">
+  <title>Royal Horizon</title>
+  <!-- Royal star above -->
+  <path d="M100 24 l2.4 7 l7 2.4 l-7 2.4 l-2.4 7 l-2.4 -7 l-7 -2.4 l7 -2.4 z" fill="currentColor"/>
+  <!-- H verticals -->
+  <rect x="46" y="56" width="12" height="108" rx="2" fill="currentColor"/>
+  <rect x="142" y="56" width="12" height="108" rx="2" fill="currentColor"/>
+  <!-- Sun rising -->
+  <circle cx="100" cy="102" r="11" fill="currentColor"/>
+  <!-- Horizon line (replaces H crossbar, extends to suggest landscape) -->
+  <path d="M28 124 Q100 112 172 124" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+</svg>
+
+<div class="rh-lockup" lang="en">
+  <svg class="rh-lockup__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+    <path d="M8 44 Q32 35 56 44" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="32" cy="34" r="8" fill="currentColor"/>
+  </svg>
+  <div class="rh-lockup__text">
+    <span class="rh-lockup__ar" lang="ar" dir="rtl">الأفق الملكي</span>
+    <span class="rh-lockup__en">Royal Horizon</span>
+  </div>
+</div>
+
+<style>
+.rh-lockup { display: inline-flex; align-items: center; gap: 14px; color: var(--rh-lavender-600); }
+.rh-lockup__mark { width: 40px; height: 40px; flex-shrink: 0; }
+.rh-lockup__text { display: flex; flex-direction: column; line-height: 1; }
+.rh-lockup__ar { font-family: var(--rh-font-ar); font-weight: 700; font-size: 18px; letter-spacing: 0; }
+.rh-lockup__en { font-family: var(--rh-font-en); font-weight: 500; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; margin-top: 4px; color: var(--rh-lavender-800); }
+</style>
